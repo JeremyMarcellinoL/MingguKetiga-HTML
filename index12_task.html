@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2 align="center">Create Account</h2>
+
+        <table align="center">
+            <style>
+                table, th, td{
+                    border: 1px solid black;
+                }
+            </style>
+            <tr>
+                <td>
+                    <form>
+                        <input type="text" id="fname" name="fname" placeholder="First Name">
+                    </form>
+                </td>
+                <td>
+                    <form>
+                        <input type="text" id="lname" name="lname" placeholder="Last Name">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <form>
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                        <option value="ID">Indonesian</option>
+                        <option value="MY">Malaysia</option>
+                        <option value="SG">Singapore</option>
+                        <option value="PH">Philipinnes</option>
+                        <option value="GE">Germany</option>
+                        <option value="CA">Canada</option>
+                        </select>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form>
+                        <input type="email" id="email" name="email" placeholder="Email Addres">
+                    </form>
+                </td>
+                <td>
+                    <form>
+                        <input type="text" id="phones" name="phones" placeholder="Phone Number">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type password id="password1" name="password1" placeholder="Password">
+                </td>
+                <td>
+                    <input type password id="password2" name="password2" placeholder="Confirm Your Password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="tnc">Term & Condition</label>
+                     <input type="checkbox" id="tnc" name="tnc" value="Term & Condition">
+                </td>
+        </table><br/>
+        <form align="center">
+            <input type="submit" value="Create" style='font-size: 11pt'>
+        </form>
+    </body>
+</html>
